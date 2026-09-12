@@ -17,4 +17,4 @@ moduleid: ti.barcode
 guid: fe2e658e-0eaf-44a6-b6d1-c074d6b986a3
 platform: iphone
 mac: false
-minsdk: 9.2.0
+minsdk: 13.0.0

@@ -3,6 +3,7 @@
 ## BREAKING CHANGES
 
 - Mac Catalyst is no longer supported: the vendored `ZXingObjC.xcframework` was repackaged with modern slices only (`ios-arm64` device, `ios-arm64_x86_64-simulator`), dropping the `armv7`/`i386` (32-bit) and Mac Catalyst slices. The manifest now declares `mac: false` and `architectures: arm64 x86_64`.
+- `minsdk` is now 13.0.0 (was 9.2.0), matching the Android module.
 
 ## Changes
 
