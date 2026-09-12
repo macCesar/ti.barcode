@@ -62,9 +62,9 @@ CGFloat _kPadding = 10;
     rectHeight = (self.frame.size.width > self.frame.size.height) ? maxHeight : rectWidth;
   }
   _cropRect = CGRectMake((self.frame.size.width - rectWidth) / 2,
-                         (self.frame.size.height - rectHeight) / 2,
-                         rectWidth,
-                         rectHeight);
+      (self.frame.size.height - rectHeight) / 2,
+      rectWidth,
+      rectHeight);
 
   if (_cancelButton) {
     CGSize theSize = CGSizeMake(100, 50);

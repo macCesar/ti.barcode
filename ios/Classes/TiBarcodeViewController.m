@@ -226,9 +226,9 @@
   CGRect scanRect;
   if (isPortrait) {
     scanRect = CGRectMake(videoY,
-                          displayedVideoWidth - videoRectWidth - videoX,
-                          videoRectHeight,
-                          videoRectWidth);
+        displayedVideoWidth - videoRectWidth - videoX,
+        videoRectHeight,
+        videoRectWidth);
   } else {
     scanRect = CGRectMake(videoX, videoY, videoRectWidth, videoRectHeight);
   }
